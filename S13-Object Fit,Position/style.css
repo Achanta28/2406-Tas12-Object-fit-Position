@@ -1,0 +1,59 @@
+img{
+    height: 400px;
+    width: 400px;
+    /* margin: 20px; */
+    background-color: orangered;
+    border: 2px solid black;
+}
+
+#img1 {
+    object-fit: fill;
+    width: 200px;
+}
+
+#img2 {
+    object-fit: contain;
+    width: 200px;
+}
+
+#img3 {
+    object-fit: cover;
+    width: 1400px;
+    object-position: 0px -100px;
+}
+
+#img4 {
+    object-fit: none;
+}
+
+/* //mountain// */
+
+#m1 {
+    object-fit: fill;
+}
+
+#m2 {
+    object-fit: contain;
+}
+
+#m3 {
+    object-fit: cover;
+}
+
+#m4 {
+    object-fit: none;
+    /* object-position: -100px -250px; */
+}
+#m5 {
+    object-fit: scale-down;
+}
+
+
+
+
+
+
+
+
+
+
